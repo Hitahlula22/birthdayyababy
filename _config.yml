@@ -1,7 +1,7 @@
-title: My Awesome Site
-description: This is a description of my awesome site.
-url: "https://Hitahlula22.github.io/birthdayyababy"
-baseurl: "/birthdayyababy" # NOTE: delete this line if using a user or organization site
+title: "My Awesome Site"
+description: "This is a description of my awesome site."
+url: "https://hitalhula22.github.io" # Your GitHub Pages URL
+baseurl: "/birthdayyababy" # The subpath of your site
 
 # Build settings
 markdown: kramdown
