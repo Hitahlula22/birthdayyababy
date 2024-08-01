@@ -1,5 +1,5 @@
-title: My Awesome Site
-description: This is a description of my awesome site.
+title: "Our Special Moments" # or any other title you prefer
+description: This is a collection of our cherished memories.
 url: "https://Hitahlula22.github.io"
 baseurl: "/birthdayyababy" # Note: Uncomment this line if using a user or organization site
 
@@ -18,4 +18,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
 
