@@ -4,11 +4,34 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #4B0082; /* Dark purple for the header */
+  margin-bottom: 20px;
 }
 
 .container {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
+  width: 80%;
+  max-width: 1200px;
 }
 
 img {
@@ -19,6 +42,8 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
 }
 
-h1 {
-  color: #4B0082; /* Dark purple for the header */
+@media (max-width: 600px) {
+  img {
+    width: 100px; /* Smaller images on small screens */
+  }
 }
