@@ -47,3 +47,20 @@ img {
     width: 100px; /* Smaller images on small screens */
   }
 }
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+footer {
+  background-color: #4B0082; /* Dark purple */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
